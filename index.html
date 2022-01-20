@@ -1,13 +1,21 @@
 <html>
   <head>
       <title>Wonderland</title>
-      <link rel="stylesheet" href="css/style.css"
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/switch.css">
   </head>
   <body>
     <div class="header">
       <div class="row">
         <span class="title">secondhandwonderland.net</span></br>
         <span class="subtitle">My projects and links by <a href="">Pexie</a></span>
+        <div class="column">
+          <p>Dark Mode</p>
+          <label class="switch">
+            <input type="checkbox" onclick="darkmode()">
+            <span class="slider"></span>
+          </label>
+        </div>
       </div>
     </div>
     <div class="wrapper">
@@ -42,5 +50,12 @@
         </ul>
       </div>
     </div>    
-  </body>
+    
+    <script>
+      function darkmode() {
+        document.documentElement.classList.toggle('dark-mode');
+      }
+    </script>
+  
+</body>
 </html>
