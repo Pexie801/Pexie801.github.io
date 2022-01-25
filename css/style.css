@@ -14,7 +14,7 @@
   --primary: #00ADB5;
   --secondary: #222831;
   --primary-text: white;
-  --secondary-text: black;
+  --secondary-text: white;
 }
 .header{
   padding: 20px;
@@ -36,16 +36,18 @@ hr {
 }
 .title{
   font-size: 18pt;
-  margin: 0 0 0 35%;
 }
 .subtitle{
-  margin: 0 0 0 35%;
   font-size: 12pt;
   opacity: .8;
 }
 .subtitle a {
   text-decoration: none;
   color: var(--secondary-text);
+}
+.row {
+  margin: 0 0 0 35%;
+  display: block;
 }
 body{
   background-color:var(--secondary);
