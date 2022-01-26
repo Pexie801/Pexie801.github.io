@@ -1,0 +1,23 @@
+p {
+    color: var(--primary-text);
+}
+h4 {
+    color: var(--primary-text);
+}
+
+img {
+    display: inline-block;
+    float: left;
+}
+.charaters {
+    display: inline-block;
+    padding-bottom: 10;
+}
+.charaters h3{
+}
+.charaters ul{
+    display: inline-block;
+    padding: 20;
+    float: left;
+
+}

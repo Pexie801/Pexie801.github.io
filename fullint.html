@@ -5,27 +5,76 @@
   <head>
       <title>Wonderland</title>
       <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/switch.css">
+      <link rel="stylesheet" href="css/fullint.css">
   </head>
   <body>
     <div class="header">
       <div class="row">
         <span class="title"><a href=index.html> secondhandwonderland.net </a></span></br>
         <span class="subtitle">My projects and links by <a href="">Pexie</a></span>
+        <span class="dark-btn">
+          <p>Dark Mode
+          <label class="switch">
+          
+            <input type="checkbox" onclick="darkmode()">
+            <span class="slider"></span>
+          </label></p>
+        </span> 
       </div>
     </div>
     <div class="wrapper">      
       <h3>Codename: Fully Integrated</h3>
-      <div class="img_slider">
-        <img src="img/stickyaday/26.png" width="100%" height=width>
-      </div>
       </br>
+      <h4>THIS IS WIP, V0.0.1 will be out at some point... I think.</h4> </br>
       <p>Fully Integrated is a Proof of concept game. The plot is about making a better world and discovering who you are. The mechanics are based around community building,and hacking in a way that is similar to real life so people can learn.</p>
       </br>
       <p>RELEASE WIN64: <a href=>Alpha 0.0.1 - Coming soon</a></p>
       </br>
       <h3>World</h3>
       <h3>Story</h3>
-      <h3>Charaters</h3>
-    </div>
+      <span class="charaters">
+        <h3>SadowPix</h3>
+        <img src="img/main_scaled.gif" width="30%" height="width">
+        <ul>          
+          <h4>Age: 24</h4>
+          <h4>Status: Single</h4>
+          <h4>Ocupation: Freelance IT
+          <h4>Hobbys: Tinkering, Drawing</h4>
+          <h4>Pets: "BIT"</h4>
+        </ul>
+      </span>
+
+      <span class="charaters">
+        <h3>Jeff</h3>
+        <img src="img/main_scaled.gif" width="30%" height="width">
+        <ul>          
+          <h4>Age: 42</h4>
+          <h4>Status: Divorced</h4>
+          <h4>Ocupation: Former electrical enginer</h4>
+          <h4>Hobbys: Causing minnor chaos,</h4>
+          <h4>feeding the ducks.</h4>
+        </ul>
+      </span>
+
+      <span class="charaters">
+        <h3>Tob's</h3>
+        <img src="img/main_scaled.gif" width="30%" height="width">
+        <ul>          
+          <h4>Age: ?</h4>
+          <h4>Status: ?</h4>
+          <h4>Ocupation: Dogo</h4>
+          <h4>Hobbys: being the best Dogo!</h4>   
+               
+        </ul>
+
+  </div>
+
+    <script>
+      function darkmode() {
+        document.documentElement.classList.toggle('dark-mode');
+      }
+    </script>
+
   </body>
 </html>
